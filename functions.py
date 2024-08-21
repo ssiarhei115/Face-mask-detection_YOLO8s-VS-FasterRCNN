@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image as pilim, ImageDraw
 import torch
+import matplotlib
 
 def plot_img_bbox(img, box_source):
     """ Вспомогательная функция для визуализации bbox
@@ -44,9 +45,10 @@ def get_transform(train):
     
     if train:
         return A.Compose([
-                            #A.HorizontalFlip(0.5),
-                            #A.RandomBrightnessContrast(p=0.2),
+                            A.HorizontalFlip(0.5),
+                            A.RandomBrightnessContrast(p=0.2),
                             #A.ShiftScaleRotate(shift_limit=0.2, scale_limit=0.2, rotate_limit=30, p=0.5),
+                            A.Rotate(limit=(-90, 90)),
                             ToTensorV2(p=1.0) 
                         ], bbox_params={'format': 'pascal_voc', 'label_fields': ['labels']})
     else:
@@ -310,3 +312,10 @@ def plot_bounding_box(image, annotation_list):
 
     plt.imshow(np.array(image))
     plt.show()
+
+
+def get_yolo(path1, path2):
+    be = plt.get_backend()
+    model = torch.hub.load(path1, 'custom', path1+path2, source='local')
+    matplotlib.use(be)
+    return model

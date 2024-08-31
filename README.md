@@ -42,7 +42,7 @@ This metric was computed from scratch and compared with values provided by YOLO 
 
 ### Important terms
 
-Intersection Over Union (IOU)
+***Intersection Over Union (IOU)***
 
 Intersection Over Union (IOU) is a measure based on Jaccard Index that evaluates the overlap between two bounding boxes. It requires a ground truth bounding box and a predicted bounding box . By applying the IOU we can tell if a detection is valid (True Positive) or not (False Positive).
 

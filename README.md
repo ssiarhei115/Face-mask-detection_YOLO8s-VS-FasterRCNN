@@ -46,7 +46,7 @@ Intersection Over Union (IOU)
 
 Intersection Over Union (IOU) is a measure based on Jaccard Index that evaluates the overlap between two bounding boxes. It requires a ground truth bounding box and a predicted bounding box . By applying the IOU we can tell if a detection is valid (True Positive) or not (False Positive).
 
-<img src='data/pictures/1.png'>
+<img src='imgs/1.png'>
 
 Some basic concepts used by the metrics:
 * True Positive (TP): A correct detection. Detection with IOU ≥ threshold
@@ -69,7 +69,7 @@ The Precision x Recall curve is plotted by calculating the precision and recall 
 Calculating the interpolation performed in all points
 By interpolating all points, the Average Precision (AP) can be interpreted as an approximated AUC of the Precision x Recall curve. The intention is to reduce the impact of the wiggles in the curve.
 
-<img src='data/pictures/2.png'>
+<img src='imgs/2.png'>
 
 ## Summary
 

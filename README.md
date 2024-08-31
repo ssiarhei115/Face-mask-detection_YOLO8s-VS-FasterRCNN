@@ -73,6 +73,8 @@ By interpolating all points, the Average Precision (AP) can be interpreted as an
 
 ## Summary
 
+<img src='imgs/3.png'>
+
 YOLOv8 showed better results over all criteria used:
 
     * it spends much less time for training (6x advantage)

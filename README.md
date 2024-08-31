@@ -1,7 +1,7 @@
 # FasterRCNN VS YOLOv8 for face mask detection
 
 ## Main goal
-Compare two types of NN (Neural Network) detectors using the following criterias:
+Compare two types of NN (Neural Network) detectors for face mask detection using the following criterias:
 * mAP
 * training time for the same number of epochs (50)
 * weights file size

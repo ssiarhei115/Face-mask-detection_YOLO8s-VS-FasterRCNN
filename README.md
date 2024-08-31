@@ -81,7 +81,7 @@ YOLOv8 showed better results over all criteria used:
     * weights file of YOLO 22.5 MB VS 173 MB for FasterRCNN
     * YOLOv8 provides better mAP50 but this metric values for both models are similar and comparable
 
-Futhermore AP per class & mAP50 computed from scratch are comparable to those values provided by YOLO8s   
+Upon the whole, AP per class & mAP50 computed from scratch are comparable to those values provided by YOLO8s   
 
 
 ## Libraries & tools used

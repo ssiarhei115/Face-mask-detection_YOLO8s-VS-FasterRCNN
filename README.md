@@ -74,11 +74,12 @@ By interpolating all points, the Average Precision (AP) can be interpreted as an
 ## Summary
 
 YOLOv8 showed better results over all criteria used:
-* it spends much less time for trainin
-* weights file 
-* YOLOv8 provides a bit better mAP50 but this metric values for both models are similar and comparable. 
 
-Futhermore, the results of mAP computation from scratch are comparable with YOLO results 
+    * it spends much less time for training (6x advantage)
+    * weights file of YOLO 22.5 MB VS 173 MB for FasterRCNN
+    * YOLOv8 provides better mAP50 but this metric values for both models are similar and comparable
+
+Futhermore AP per class & mAP50 computed from scratch are comparable to those values provided by YOLO8s   
 
 
 ## Libraries & tools used

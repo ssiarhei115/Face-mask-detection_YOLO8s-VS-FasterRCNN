@@ -7,7 +7,7 @@ Compare two types of NN (Neural Network) detectors for face mask detection using
 * weights file size
 
 ## Models
-Model for comparison:
+Models for comparison:
 1) fasterrcnn_resnet50_fpn_v2
 2) Yolo V8s
 

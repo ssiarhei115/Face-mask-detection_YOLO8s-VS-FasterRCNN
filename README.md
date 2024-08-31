@@ -1,4 +1,4 @@
-# FasterRCNN VS YOLOv8 for face mask detection.
+# FasterRCNN VS YOLOv8 for face mask detection
 
 ## Main goal
 Compare two types of NN (Neural Network) detectors using the following criterias:
@@ -73,7 +73,12 @@ By interpolating all points, the Average Precision (AP) can be interpreted as an
 
 ## Summary
 
+YOLOv8 showed better results over all criteria used:
+* it spends much less time for trainin
+* weights file 
+* YOLOv8 provides a bit better mAP50 but this metric values for both models are similar and comparable. 
 
+Futhermore, the results of mAP computation from scratch are comparable with YOLO results 
 
 
 ## Libraries & tools used

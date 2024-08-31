@@ -1,3 +1,5 @@
+<p align='center'><img src='imgs/1.jpg' width=300></p>
+
 # FasterRCNN VS YOLOv8 for face mask detection
 
 ## Main goal
